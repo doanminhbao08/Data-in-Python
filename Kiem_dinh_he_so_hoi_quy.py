@@ -99,6 +99,8 @@ def kiem_dinh():
     SE2 = MSe * (np.linalg.inv(X.transpose().dot(X)))
     print('SE', [i], '=', math.sqrt(SE2[i][i]))
 
+
+    # test thử commit change
     print('B', i, '= ', B[i])
     t0 = B[i] / math.sqrt(SE2[i][i])
     print('t', i, '= ', t0)
